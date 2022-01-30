@@ -1,5 +1,5 @@
 # AgendaTelefono_sqlite_tkinter
-Implementación de una agenda de teléfono que actua sobre un archivo csv, almacenando y cargando los datos de una base de datos a través de sqlite3. Se implementa una interfaz grafica (GUI) haciendo uso de la libreria tkinter. 
+Implementación de una agenda de teléfono que actua sobre un archivo CSV, almacenando y cargando los datos de una base de datos a través de sqlite3. Se implementa una interfaz grafica (GUI) haciendo uso de la libreria tkinter. 
 # 1. FUNCIONAMIENTO 
 Se ha creado una interfaz de usuario (“Agenda”) compuesto por un menú (“OPCIONES”), este 
 menú contiene 4 opciones:
