@@ -3,13 +3,13 @@ Implementación de una agenda de teléfono que actua sobre un archivo CSV, almac
 # 1. FUNCIONAMIENTO 
 Se ha creado una interfaz de usuario (“Agenda”) compuesto por un menú (“OPCIONES”), este 
 menú contiene 4 opciones:
-- Abrir archivo. Si clicamos en esta opción se abrirá un dialogo para abrir el archivo CSV. 
+- **Abrir archivo**. Si clicamos en esta opción se abrirá un dialogo para abrir el archivo CSV. 
 Si el archivo seleccionado puede ser leído como un CSV con la estructura que se trabaja 
 en este proyecto se almacenará adecuadamente en una base de datos. Si el proceso se 
 realiza con éxito se muestra un mensaje informando del nombre del archivo y de que 
 los registros se han almacenado sin problemas.
 
-- Consultar base de datos. Esta opción nos abre un cuadro de texto en el que podemos 
+- **Consultar base de datos**. Esta opción nos abre un cuadro de texto en el que podemos 
 introducir un nombre y un botón para consultar el número de teléfono que tiene 
 asociado dicho nombre. En caso de que el nombre no exista en la base de datos nos dirá 
 que no ha sido encontrado, en otro caso nos mostrará como resultado la pareja de 
@@ -18,7 +18,7 @@ datos sin haber seleccionado en primer lugar la opción “Abrir archivo”, la 
 se almacenan los datos todavía no estará creada por lo que se muestra un mensaje que 
 nos informa de este hecho y nos invita a abrir un archivo.
 
-- Añadir registro a la base de datos. Esta opción muestra en la interfaz dos cuadros de 
+- **Añadir registro a la base de datos**. Esta opción muestra en la interfaz dos cuadros de 
 texto, uno para introducir el nombre y otro para introducir el teléfono que queremos 
 añadir, y un botón “AÑADIR” que pulsaremos para realizar la acción. Para que el 
 teléfono introducido sea correcto debe contener 9 números. Si el teléfono introducido 
@@ -29,7 +29,7 @@ la opción “Abrir archivo”, la tabla en la que se almacenan los datos todav�
 creada por lo que se muestra un mensaje que nos informa de este hecho y nos invita a 
 abrir un archivo.
 
-- Eliminar registro de la base de datos. Esta opción muestra en la interfaz un cuadro de 
+- **Eliminar registro de la base de datos**. Esta opción muestra en la interfaz un cuadro de 
 texto y un botón. En el cuadro de texto se introduce el nombre del registro que se quiere 
 eliminar y el botón “ELIMINAR” se pulsa para que se realice el proceso. La pulsación del 
 botón ofrece un mensaje que informa si la operación se ha realizado con éxito o si el 
